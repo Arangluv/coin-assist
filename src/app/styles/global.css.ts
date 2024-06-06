@@ -23,7 +23,7 @@ globalStyle("body", {
   lineHeight: 1,
   height: "auto",
   width: "100vw",
-  backgroundColor: "red",
+  backgroundColor: "black",
 });
 
 globalStyle("a", {

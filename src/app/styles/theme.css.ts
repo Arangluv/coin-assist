@@ -20,13 +20,15 @@ export const global = createGlobalTheme(":root", {
     large: "700",
   },
   color: {
-    background: "#ffffff",
-    text: "#040316",
-    accent: "#2F27CE",
-    secondary: "#DDDBFF",
-    primary: "#443DFF",
-    border: "rgba(0,0,0,0.2)",
-    secondaryText: "rgba(0,0,0,0.8)",
+    background: "#16181E",
+    text: "#FCFDFC",
+    accent: "#7D38EC",
+    secondary: "#888884",
+    primary: "#7D38EC",
+    border: "#858687",
+    secondaryText: "#858687",
+    success: "#21B957",
+    fail: "#F04856",
   },
 });
 
