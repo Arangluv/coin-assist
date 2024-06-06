@@ -1,3 +1,5 @@
+import * as style from "./styles/test.css";
+
 export default function Home() {
-  return <main />;
+  return <main className={style.container} />;
 }
