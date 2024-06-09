@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@style/global.css";
 import * as style from "@style/home/main.css";
+import Header from "./(home)/(components)/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,8 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={inter.className}>
-        <div className={style.main_layout_container}>{children}</div>
+      <body className={`${inter.className} ${style.scroll_hidden}`}>
+        <div className={style.main_layout_container}>
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );

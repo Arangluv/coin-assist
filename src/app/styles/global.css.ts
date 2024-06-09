@@ -21,7 +21,7 @@ globalStyle(resetTag, {
 
 globalStyle("body", {
   lineHeight: 1,
-  height: "auto",
+  height: "200vh",
   width: "100vw",
   backgroundColor: "black",
 });
